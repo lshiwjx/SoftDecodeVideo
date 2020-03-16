@@ -1,0 +1,11 @@
+# Requirements
+
+pybind: compile c to python
+numpy: provide c ptr
+ffmpeg: decode
+
+# Usage
+
+ffmpegDecode.cpp: source file of decoder
+setup.py: compile the decoder in python
+videotest.py: test the decoder with a give video
