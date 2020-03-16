@@ -1,11 +1,15 @@
 # Requirements
 
 pybind: compile c to python
-numpy: provide c ptr
-ffmpeg: decode
+numpy=1.14: provide c ptr
+ffmpeg=3.4: decode
 
 # Usage
 
 ffmpegDecode.cpp: source file of decoder
 setup.py: compile the decoder in python
 videotest.py: test the decoder with a give video
+
+# Command
+
+python setup.py install
